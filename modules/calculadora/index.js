@@ -1,6 +1,9 @@
+const sumar = require('./sumar');
+const restar = require('./restar');
+
 module.exports = {
-    sumar : (a,b) => a + b,
-    restar : (a,b) => a - b,
+    sumar,
+    restar,
     multiplicar : (a,b) => a * b,
     dividir : (a,b) => a / b,
 }
