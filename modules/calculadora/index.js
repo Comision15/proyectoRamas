@@ -1,6 +1,6 @@
 const sumar = require('./sumar');
 const restar = require('./restar');
-const restar = require('./multiplicar');
+const multiplicar = require('./multiplicar');
 
 module.exports = {
     sumar,
